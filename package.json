@@ -13,6 +13,9 @@
     "type" : "git",
     "url" : "http://github.com/github/hubot.git"
   },
+  "engines" : {
+    "node": "0.6.x"
+   },
 
   "dependencies": {
     "hubot": "2.2.0",
