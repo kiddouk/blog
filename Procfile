@@ -1,1 +1,1 @@
-web: bin/hubot -a irc -n mb
+web: bin/hubot -a irc -n mbricolage
