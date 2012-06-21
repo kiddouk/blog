@@ -7,10 +7,10 @@ module.exports = (robot) ->
   fixes_pattern = ///
    fix(es)?\spodio(/)?#[0-9]+
   ///gi
-  ref_pattern = ///
+  refs_pattern = ///
    reference(s)?\spodio(/)?#[0-9]+
   ///gi
-   item_pattern = ///
+  item_pattern = ///
    podio(/)?#([0-9]+)
   ///i
 
@@ -19,7 +19,7 @@ module.exports = (robot) ->
 
   for commit in req.body.commits
     fixes = commit.message.match(fixes_pattern)
-    references = commit.message.match(ref_pattern)
+    references = commit.message.match(refs_pattern)
     if fixes?
       for fix in fixes
         [match_elem, slash, item_id] = fix.match(item_pattern)
