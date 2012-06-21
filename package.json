@@ -22,7 +22,7 @@
     "hubot-scripts": ">=2.0.8",
     "optparse": "1.0.3",
     "hubot-irc": "0.0.x",
-    "githubot": "https://github.com/kiddouk/githubot/tarball/master",
+    "githubot": "https://github.com/iangreenleaf/githubot.git/tarball/master"
     "podio-coffee": "https://github.com/kiddouk/podio-coffee/tarball/master"
   }
 }
