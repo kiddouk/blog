@@ -50,7 +50,7 @@ class PodioIssue
     data =
       fields:
         status:
-          "fixed"
+          "Fixed"
 
 
     comment_cb = (data) =>
