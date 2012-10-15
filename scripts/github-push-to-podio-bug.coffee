@@ -42,7 +42,7 @@ module.exports = (robot) ->
     if changelogs?
       for change in changelogs
         [match_elem, change_msg] = change
-        clg.add "* Change: #{change_msg}"
+        clg.add "* Change: #{change_msg} (#{commit.author.name})\n"
   clg.update()
   res.end "Success"
 
