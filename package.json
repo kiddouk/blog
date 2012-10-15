@@ -23,7 +23,8 @@
     "optparse": "1.0.3",
     "hubot-irc": "0.0.x",
     "githubot": "https://github.com/iangreenleaf/githubot/tarball/master",
-    "podio-coffee": "https://github.com/kiddouk/podio-coffee/tarball/master"
+    "podio-coffee": "https://github.com/kiddouk/podio-coffee/tarball/master",
+    "octonode": "https://github.com/kiddouk/octonode/tarball/master"
   }
 }
 
