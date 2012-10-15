@@ -32,7 +32,7 @@ module.exports = (robot) ->
         clg.add "* fixes podio##{item_id} (#{commit.author.name})\n"
         podio_api.solve_issue(item_id, commit.url, success_cb, ->
           res.end "Error"
-          console.log "Error while processing GitHub Push")
+          console.log "Error while processing GitHub Push"
     if references?
       for ref in references
         [match_elem, slash, item_id] = ref.match(item_pattern)
@@ -42,7 +42,7 @@ module.exports = (robot) ->
     if changelogs?
       for change in changelogs
         [match_elem, change_msg] = change
-        clg.add "* Change: #{change_msg}"
+        clg.add "* Change: #{change_msg} (#{commit.author.name})\n"
   clg.update()
   res.end "Success"
 
