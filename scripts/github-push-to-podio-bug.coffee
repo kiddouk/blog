@@ -17,6 +17,9 @@ module.exports = (robot) ->
   changelog_pattern = ///
    changelog:\s*(.*)
   ///gi
+  changelog_message = ///
+   changelog:\s*(.*)
+  ///i
 
 
   success_cb = (data) -> res.end "success"
@@ -41,7 +44,7 @@ module.exports = (robot) ->
           console.log "Error while processing GitHub Push"
     if changelogs?
       for change in changelogs
-        [match_elem, change_msg] = change
+        [match_elem, change_msg] = change.match(changelog_message)
         clg.add "* Change: #{change_msg} (#{commit.author.name})\n"
   clg.update()
   res.end "Success"
