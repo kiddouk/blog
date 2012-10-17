@@ -86,7 +86,7 @@ class Changelog
       console.log err
       return err if err
       @base_tree_sha = sha
-      @_get_blob(node.sha) for node in body.tree when node.path == 'changelog.MD'
+      @_get_blob(node.sha) for node in body.tree when node.path == 'CHANGELOG.md'
 
   _get_blob: (sha) ->
     console.log "Get Blob"
