@@ -1,6 +1,7 @@
 
 Podio = require('podio-coffee').Podio
 github = require('octonode')
+request = require('request')
 
 module.exports = (robot) ->
  robot.router.post "/github/push", (req, res) ->
@@ -23,31 +24,52 @@ module.exports = (robot) ->
 
 
   success_cb = (data) -> res.end "success"
-  return false if req.body.ref != 'refs/heads/develop'
+  if req.body.ref != 'refs/heads/develop'
+    res.end "I dont like that."
+    return true
   clg = new Changelog process.env.GITHUB_LOGIN, process.env.GITHUB_PASSWORD, 'gameisland/Backend'
+  index = 0
   for commit in req.body.commits
     fixes = commit.message.match(fixes_pattern)
     references = commit.message.match(refs_pattern)
     changelogs = commit.message.match(changelog_pattern)
     if fixes?
       for fix in fixes
+        console.log fix
         [match_elem, slash, item_id] = fix.match(item_pattern)
-        clg.add "* fixes podio##{item_id} (#{commit.author.name})\n"
-        podio_api.solve_issue item_id, commit.url, success_cb, ->
-          res.end "Error"
-          console.log "Error while processing GitHub Push"
-    if references?
+        request.post "http://git.io", {form:{url: commit.url}}, (e, r, body) ->
+          c_url = if r.statusCode isnt 201 or e then commit.url else r.headers.location
+          clg.add "* fixes podio##{item_id} [#{commit.id.substring(0, 6)}](#{c_url}) - #{commit.author.name}\n"
+          index += 1
+          podio_api.solve_issue item_id, c_url, success_cb, ->
+            console.log "Error while processing GitHub Push"
+    else
+     if references?
       for ref in references
         [match_elem, slash, item_id] = ref.match(item_pattern)
-        podio_api.comment_issue item_id, commit.url, success_cb, ->
-          res.end "Error"
-          console.log "Error while processing GitHub Push"
-    if changelogs?
-      for change in changelogs
+        request.post "http://git.io", {form:{url: commit.url}}, (e, r, body) ->
+          c_url = if r.statusCode isnt 201 or e then commit.url else r.headers.location
+          index += 1
+          podio_api.comment_issue item_id, c_url, success_cb, ->
+            console.log "Error while processing GitHub Push"
+     else
+      if changelogs?
+       for change in changelogs
         [match_elem, change_msg] = change.match(changelog_message)
-        clg.add "* Change: #{change_msg} (#{commit.author.name})\n"
-  clg.update()
-  res.end "Success"
+        request.post "http://git.io", {form:{url: commit.url}}, (e, r, body) ->
+          c_url = if r.statusCode isnt 201 or e then commit.url else r.headers.location
+          clg.add "* Change: #{change_msg} [#{commit.id.substring(0, 6)}](#{c_url}) - #{commit.author.name}\n"
+          index += 1
+      else
+       index += 1
+
+  i = setInterval () ->
+    console.log index
+    if index == req.body.commits.length
+      clearInterval(i) 
+      clg.update()
+      res.end "Success"
+  , 1000
 
 
 class Changelog
@@ -105,7 +127,7 @@ class Changelog
 
   _update_tree: (sha) ->
     console.log "Updating tree"
-    @ghrepo.create_tree {base_tree: @base_tree_sha, tree: [{path: 'changelog.MD', mode: 100644, type: 'blob', sha: sha}]}, (err, body) =>
+    @ghrepo.create_tree {base_tree: @base_tree_sha, tree: [{path: 'CHANGELOG.md', mode: 100644, type: 'blob', sha: sha}]}, (err, body) =>
        return err if err
        @_create_commit body.sha
 
