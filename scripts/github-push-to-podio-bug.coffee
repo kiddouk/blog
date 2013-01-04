@@ -4,6 +4,18 @@ github = require('octonode')
 request = require('request')
 
 module.exports = (robot) ->
+ robot.router.post "/bug/create", (req, res) ->
+  if req.body.type == "hook.verify"
+    podio_api = new Podio
+    data =
+      code:
+        req.body.code
+    console.log data
+    podio_api.verify_hook req.body.hook_id, (data) ->
+        res.end "Ok"
+
+  res.end "Ok"
+
  robot.router.post "/github/push", (req, res) ->
   podio_api = new PodioIssue(res)
   fixes_pattern = ///
@@ -66,7 +78,7 @@ module.exports = (robot) ->
   i = setInterval () ->
     console.log index
     if index == req.body.commits.length
-      clearInterval(i) 
+      clearInterval(i)
       clg.update()
       res.end "Success"
   , 1000
@@ -150,7 +162,15 @@ class PodioIssue
 
     data =
       value: "Referenced in commit : " + commit_url
-    podio_api.comment item_id, data, success_cb, error_cb
+    podio_api.comment item_id, data, success_cb, error
+
+  update_bug_number: (item_id, success_cb, error_cb) ->
+    podio_api = new Podio()
+    data =
+      fields:
+        bug_number:
+          item_id
+    podio_api.update_item item_id, data, success_cb, error_cb
 
   solve_issue: (item_id, commit_url, success_cb, error_cb) ->
     podio_api = new Podio()
