@@ -14,7 +14,8 @@ module.exports = (robot) ->
         req.body.code
     console.log data
     podio_api.verify_hook req.body.hook_id, data, (data) ->
-        res.end "Ok"
+        return true, (data) ->
+        return false
 
   res.end "Ok"
 
