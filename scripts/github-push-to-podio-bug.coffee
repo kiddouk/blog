@@ -4,8 +4,9 @@ github = require('octonode')
 request = require('request')
 
 module.exports = (robot) ->
- console.log req.body
  robot.router.post "/bug/create", (req, res) ->
+  console.log req.body
+
   if req.body.type == "hook.verify"
     podio_api = new Podio
     data =
