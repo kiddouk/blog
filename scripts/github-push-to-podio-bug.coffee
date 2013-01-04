@@ -6,8 +6,8 @@ request = require('request')
 module.exports = (robot) ->
  robot.router.post "/bug/create", (req, res) ->
   console.log req.body
-  success_cb = (data) -> return true
-  error_cb = (data) -> return false
+  success_cb = (data) -> console.log "Hook = success"
+  error_cb = (data) -> console.log "Hook = Error"
 
   if req.body.type == "hook.verify"
     podio_api = new Podio
@@ -175,8 +175,9 @@ class PodioIssue
     podio_api = new Podio()
     data =
       fields:
-        bug_number:
+        'bug-number':
           item_id
+    console.log data
     podio_api.update_item item_id, data, success_cb, error_cb
 
   solve_issue: (item_id, commit_url, success_cb, error_cb) ->
