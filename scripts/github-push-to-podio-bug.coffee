@@ -174,11 +174,13 @@ class PodioIssue
   update_bug_number: (item_id, success_cb, error_cb) ->
     podio_api = new Podio()
     data =
+      silent:
+        true
       fields:
         'bug-number':
           item_id
     console.log data
-    podio_api.update_item item_id, data, success_cb, error_cb
+    podio_api.update_item item_id, data, success_cb, error_cb, true
 
   solve_issue: (item_id, commit_url, success_cb, error_cb) ->
     podio_api = new Podio()
