@@ -6,6 +6,8 @@ request = require('request')
 module.exports = (robot) ->
  robot.router.post "/bug/create", (req, res) ->
   console.log req.body
+  success_cb = (data) -> return true
+  error_cb = (data) -> return false
 
   if req.body.type == "hook.verify"
     podio_api = new Podio
@@ -13,9 +15,11 @@ module.exports = (robot) ->
       code:
         req.body.code
     console.log data
-    success_cb = (data) -> return true
-    error_cb = (data) -> return false
     podio_api.verify_hook req.body.hook_id, data, success_cb, error_cb
+
+  if req.body.type = "item.create"
+    podio_api = new PodioIssue(res)
+    podio_api.update_bug_number req.body.item_id, success_cb, error_cb
 
   res.end "Ok"
 
