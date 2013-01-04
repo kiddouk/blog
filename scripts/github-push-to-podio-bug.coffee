@@ -17,7 +17,7 @@ module.exports = (robot) ->
     console.log data
     podio_api.verify_hook req.body.hook_id, data, success_cb, error_cb
 
-  if req.body.type = "item.create"
+  if req.body.type == "item.create"
     podio_api = new PodioIssue(res)
     podio_api.update_bug_number req.body.item_id, success_cb, error_cb
 
