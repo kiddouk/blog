@@ -4,6 +4,7 @@ github = require('octonode')
 request = require('request')
 
 module.exports = (robot) ->
+ console.log req.body
  robot.router.post "/bug/create", (req, res) ->
   if req.body.type == "hook.verify"
     podio_api = new Podio
@@ -11,7 +12,7 @@ module.exports = (robot) ->
       code:
         req.body.code
     console.log data
-    podio_api.verify_hook req.body.hook_id, (data) ->
+    podio_api.verify_hook req.body.hook_id, data, (data) ->
         res.end "Ok"
 
   res.end "Ok"
