@@ -21,6 +21,7 @@ module.exports = (robot) ->
     podio_api = new PodioIssue(res)
     podio_api.update_bug_number req.body.item_id, success_cb, error_cb
 
+  ###
   if req.body.type in ["item.update", "item.create"]
     # update bug count
     data = 
@@ -31,6 +32,7 @@ module.exports = (robot) ->
       path = "/item/app/1516876/filter/"
       # filter_success = (data) -> console.log data, data.total, data.filtered
       podio_api._send_request path, "POST", data, success_cb, error_cb
+  ###
 
   res.end "Ok"
 
