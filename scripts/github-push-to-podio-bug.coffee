@@ -21,6 +21,14 @@ module.exports = (robot) ->
     podio_api = new PodioIssue(res)
     podio_api.update_bug_number req.body.item_id, success_cb, error_cb
 
+  if req.body.type in ["item.update", "item.create"]
+    # update bug count
+    data = 
+      filters:
+        category: 0
+    podio_api = new Podio
+    podio_api._send_request "/item/app/1516876/filter/", "POST", data, success_cb, error_cb
+
   res.end "Ok"
 
  robot.router.post "/github/push", (req, res) ->
