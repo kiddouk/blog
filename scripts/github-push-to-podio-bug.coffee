@@ -26,7 +26,6 @@ module.exports = (robot) ->
     data = 
       filters:
         category: 1
-        status: "Reported"
     podio_api = new Podio
     podio_api.authenticate =>
       path = "/item/app/1516876/filter/"
