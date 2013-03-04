@@ -25,7 +25,8 @@ module.exports = (robot) ->
     # update bug count
     data = 
       filters:
-        category: 0
+        category: 1
+        status: "Reported"
     podio_api = new Podio
     podio_api.authenticate =>
       path = "/item/app/1516876/filter/"
