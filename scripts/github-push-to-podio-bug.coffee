@@ -29,8 +29,8 @@ module.exports = (robot) ->
     podio_api = new Podio
     podio_api.authenticate =>
       path = "/item/app/1516876/filter/"
-      filter_success = (data) -> console.log data, data.total, data.filtered
-      podio_api._send_request path, "POST", data, filter_success, error_cb
+      # filter_success = (data) -> console.log data, data.total, data.filtered
+      podio_api._send_request path, "POST", data, success_cb, error_cb
 
   res.end "Ok"
 
