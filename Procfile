@@ -1,1 +1,1 @@
-web: bin/hubot -a irc -n mbricolage
+web: bin/hubot -a hipchat 
