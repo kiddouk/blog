@@ -1,0 +1,136 @@
+/* WEBFONTS should be declared here */
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300italic);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+
+body {
+ font-size: 16px;
+ line-height: 1.618em;
+ color: #333333;
+}
+
+/* TYPOGRAPHY */
+h1 {
+ font-family: "Lato";
+ font-weight: 100;
+ font-size: 5.625em;
+ line-height: 1.15em;
+ margin-bottom: .2em;
+}
+
+h2 {
+ font-family: "Lato";
+ font-weight: 300;
+ font-style: italic;
+ texxt-transform: uppercase;
+ font-size: 1.625em;
+ line-height: 1.618em;
+ margin-top: 2em;
+ margin-bottom: 1em;
+}
+
+h3 {
+ font-family: "Droid sans";
+ font-size: 1.328em;
+ color: #666666;
+}
+
+h4 {
+ font-family: "Droid Sans";
+ font-size: 0.821em;
+ color: #666666;
+}
+
+h5 {
+ font-family: "Lato";
+ font-size: 0.507em;
+}
+
+h6 {
+ font-family: "Lato";
+ font-size: 1.382em;
+}
+
+p {
+ font-family: "Droid Sans";
+ font-size: 1em; /* 16px */
+ line-height: 1.618em;
+ margin-bottom: 1.5em;
+}
+
+p.author {
+ font-family: "Droid Sans";
+ font-size: .821em;
+ line-height: 1.923em;
+ margin-bottom: 1.9em;
+ color: #666464;
+ text-align: right;
+ letter-spacing: 1px;
+}
+
+p.intro {
+ font-size: 2.149em;
+ line-height: 1.2em;
+ margin-bottom: .7em;
+}
+
+p i {
+ font-style: italic;
+}
+
+p strong {
+ font-weight: bold;
+}
+
+blockquote {
+ font-family: "Droid Sans";
+ font-style: italic;
+ line-height: 1.618em;
+ font-size: 1em;
+ margin-left: 2.5em;
+ margin-top: 1.5em;
+ margin-bottom: 1.5em;
+ padding-left: 1em;
+ border-left: 1px solid #333333;
+
+}
+
+ol {
+ list-style: decimal;
+ margin-left: 2.5em;
+ padding-left: 1em;
+ line-height: 1.618em;
+}
+
+li {
+ font-family: "Droid Sans";
+ font-size: 1em;
+}
+
+/* CONTAINERS */
+
+#main {
+ width: 56.63em; /* 35 * 1.618 */
+
+}
+
+#right {
+ float: right;
+ width: 35em;
+ border-left: 1px solid #eeeeee;
+ padding-left: 1em;
+}
+
+#left {
+ padding-top: 1em;
+ width: 20em;
+ text-align: right;
+}
+
+#left p i {
+ color: #777777;
+ font-size: 0.821em;
+ text-align: justify;
+ letter-spacing: 1.618em;
+}
