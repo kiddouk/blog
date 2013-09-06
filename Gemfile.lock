@@ -29,8 +29,8 @@ GEM
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
     rack (1.1.0)
-    rack-try_static (0.1.1)
-      rack (= 1.1.0)
+    rack-contrib (1.1.0)
+      rack (>= 0.9.1)
     redcarpet (2.2.2)
     safe_yaml (0.7.1)
     shotgun (0.9)
@@ -43,5 +43,5 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
-  rack-try_static
+  rack-contrib
   shotgun

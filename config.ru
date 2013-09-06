@@ -3,9 +3,9 @@ Bundler.setup
 Bundler.require
 require 'rack/contrib/try_static'
 
-use Rack::Static, 
+use Rack::TryStatic,
   :urls => %w[/],
-  :root => "_site"
+  :root => "_site",
   :try => ['.html', 'index.html', '/index.html'] # try these postfixes sequentially
 
 run lambda { |env|

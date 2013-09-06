@@ -1,5 +1,5 @@
 source "https://rubygems.org"
 
 gem 'jekyll'
-gem 'rack-try_static'
+gem 'rack-contrib'
 gem 'shotgun'
