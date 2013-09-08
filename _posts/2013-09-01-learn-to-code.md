@@ -15,7 +15,7 @@ People defending the cause, don't even know what they are talking about.
 > before whining and taking it to a repair shop when they should rely on
 > themselves to problem solve? Not at all.
 
-Natt Garun, [Why learning how to code is not just a horrible trend](http://www.digitaltrends.com/computing/why-learning-to-code-is-not-just-a-horrible-trend/ "Natt Garon on digitaltrends")
+<p class="author"><i>by</i> NATT GARUN, <i>on</i> <a href="http://www.digitaltrends.com/computing/why-learning-to-code-is-not-just-a-horrible-trend/" target="_blank" title="Natt Garon on digitaltrends">Why learning how to code is not just a horrible trend</a></p>
 
 Nope, coding will not help you to stop whining or have to go to the repair shop at times. Programming and fixing a computer are two different activities. And you dont need to learn one to master the other.
 
@@ -24,13 +24,13 @@ Any activity is "empowering"
 > I think everybody should learn to code, for one simple reason: knowing how
 > to code is hugely empowering.
 
-Sacha Greif, [blog post](http://sachagreif.com/please-learn-to-code/ "Sacha Greif, Designer")
+<p class="author"><i>by</i> Sacha Greif, <i>on</i> <a href="http://sachagreif.com/please-learn-to-code/" target="_blank" title="Sacha Greif, Designer">a blog post</a></p>
  
 What are we affraid here ? That someone is more "empowered" than somebody else ? In that case, I want to learn how to do plumbering.
 
 > I wish I had been told how to fix my leaking toilet.
 
-A developer, when he had to call for a plumber a sunday a 11PM after paying a wooping 1000$ bill without counting the insurrance malus.
+<p class="author"><i>A developer, when he had to call for a plumber a sunday a 11PM after paying a wooping 1000$ bill without counting the insurrance malus.</i></p>
 
 Coding has nothing to do with coding.
 --------------------------------
@@ -47,12 +47,13 @@ We could totally imagine the following quotes, after watching the [cheesy video]
 
 > If I knew how to code, I wouldn't have taken any drugs. Think about it. It would have ruined my career.
 
-Curt Cobain, after his death.
+<p class="author"><i>Curt Cobain, after his death.</i></p>
 
 > Who gives a damn about coding when you can get all the whisky in the world.
 
-Amy winehouse, before dying.
+<p class="author"><i>Amy winehouse, before dying.</i></p>
 
 
 More seriously, the "Learn to code" campaign appears to be more [a campaign to hire](http://www.avc.com/a_vc/2013/04/announcing-the-good-things-come-to-those-who-code-campaign.html "A VC") than to really promote a passion or stimulate curiosity or creativity. Make sure that you are learning something that *you* find interesting before caving in front of the hype of a certain field.
 
+Learn things that you are crazy about, things that makes you wonder, things that keep you awake at night. Not some random stuff propulsed by any marketing campaign.
