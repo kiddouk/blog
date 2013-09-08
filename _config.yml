@@ -1,3 +1,7 @@
 name: Sebastien Requiem
 markdown: redcarpet
 pygments: true
+
+exclude: [vendor, config.ru, Gemfile, Gemfile.lock, Rakefile, README.md]
+
+
