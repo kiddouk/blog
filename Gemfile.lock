@@ -61,5 +61,6 @@ PLATFORMS
 DEPENDENCIES
   heroku
   jekyll
+  rack
   rack-contrib
   shotgun
