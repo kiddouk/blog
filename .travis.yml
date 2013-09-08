@@ -2,7 +2,7 @@ language: ruby
 rvm:
 - 1.9.3
 script: bundle exec jekyll build
-install: bundle install --without production
+install: bundle install
 deploy:
   provider: heroku
   app: empty-galaxy-2801
