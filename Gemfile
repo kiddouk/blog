@@ -4,4 +4,3 @@ gem 'jekyll'
 gem 'rack'
 gem 'rack-contrib'
 gem 'shotgun', :group => :development
-gem 'heroku'
