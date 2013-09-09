@@ -1,0 +1,35 @@
+{
+  "name":        "MonsieurBricolage",
+  "version":     "2.2.0",
+  "author":      "GitHub Inc.",
+  "keywords":    "github hubot campfire bot",
+  "description": "A simple helpful Robot for your Company",
+  "licenses":     [{
+    "type":       "MIT",
+    "url":        "http://github.com/github/hubot/raw/master/LICENSE"
+  }],
+
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/github/hubot.git"
+  },
+  "engines" : {
+    "node": "0.8.x",
+    "npm": "1.2.x"
+   },
+
+  "dependencies": {
+    "request": "2.11.4",
+    "hubot": "2.4.x",
+    "hubot-scripts": ">=2.4.1",
+    "hubot-hipchat": "https://github.com/kiddouk/hubot-hipchat/tarball/master",
+    "optparse": "1.0.3",
+    "underscore": "1.3.3",
+    "handlebars": "1.0.5beta",
+    "githubot": "https://github.com/iangreenleaf/githubot/tarball/master",
+    "podio-coffee": "https://github.com/kiddouk/podio-coffee/tarball/master",
+    "octonode": "https://github.com/kiddouk/octonode/tarball/master"
+  }
+}
+
+
