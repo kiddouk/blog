@@ -5,7 +5,7 @@ author: SEBASTIEN REQUIEM
 published: true
 ---
 
-<p class="intro">Learning how to code has been <a href="http://www.codinghorror.com/blog/2012/05/please-dont-learn-to-code.html" target="_blank" title="Jeff Atwood on Coding Horror">discussed</a> already a million times. Here a 5 reasons why you dont need to learn how to code.</p>
+<p class="intro">Learning how to code has been <a href="http://www.codinghorror.com/blog/2012/05/please-dont-learn-to-code.html" target="_blank" title="Jeff Atwood on Coding Horror">discussed</a> <a href="http://www.forbes.com/sites/anthonykosner/2012/10/06/learn-to-code-1-does-everybody-really-need-to-program/" target="_blank" title="Learn to code on forbes">already</a> a million times. Here a 5 reasons why you dont need to learn how to code.</p>
 
 People defending the cause, don't even know what they are talking about.
 ----------------------------
