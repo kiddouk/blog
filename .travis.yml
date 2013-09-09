@@ -5,6 +5,7 @@ script: bundle exec jekyll build
 install: bundle install
 deploy:
   provider: heroku
+  strategy: git
   app: empty-galaxy-2801
   api_key:
     secure: HtrGWpHb1vp7iZA1y2B+AB2M1eJafCXFUZa9iqYPuKd6CXyltaQHYLjphU/E6Rt72+AgHpwINTSy+NCpdC9wf6fL+hJ163y9wNCBqnNY2B0gB8XQTe1JQ+izFU1phUqTsijY3QCOCC5++UHuJBHW8H5+ELenhy8/irOgwb/jQfQ=
