@@ -5,6 +5,12 @@ namespace :assets do
   task :precompile do
     Rake::Task["clean"].invoke
     sh "bundle exec jekyll build"
+
+    File.open('_posts/2013-09-01-learn-to-code.md', 'r') do |f1|  
+     while line = f1.gets  
+      puts line  
+     end
+    end  
   end
 end
 
