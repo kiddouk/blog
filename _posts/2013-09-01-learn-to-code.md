@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Learning how to cook.
+title: Learn to cook.
 author: SEBASTIEN REQUIEM
 published: true
 ---
