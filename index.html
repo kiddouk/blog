@@ -1,12 +1,28 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Not so randome stuff
 ---
+<header>
+  <div id="title">
+    <h1>Sebastien Requiem</h1>
+    <h2>not so random thoughts</h2>
+  </div>
+  <ul id="offsite-links">
+    <li><i class="icon-github-sign"></i> <a href="http://github.com/kiddouk" title="sebastien requiem on github">github</a></li>
+    <li><i class="icon-linkedin-sign"></i> <a href="http://dk.linkedin.com/sebastienrequiem" title="sebastien requiem on linkedin">linkedin</a></li>
+  </ul> <!-- /offiste-links -->
+</header>
+
 <div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    <section>
+      <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+      <h5 id="date">{{ post.date | date: "%b '%y"}}</h5>
+      <p class="intro">{{ post.excerpt }}</p>
+      <div class="read-more">
+        <a href="{{ post.url }}" title="{{ post.title }}">Read more <b class="icon-circle-arrow-right"></b></a>
+      </div> <!-- /read-more -->
+      <div class="clear" />
+    </section>
     {% endfor %}
-  </ul>
-</div>
+</div> <!-- /home -->
