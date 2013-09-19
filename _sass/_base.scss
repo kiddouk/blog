@@ -1,0 +1,112 @@
+/* Base SCSS file.
+   It defines all the common variable that will be used along the project
+   Nothing here should be overridden */
+
+
+/* Define layout and breakpoint */
+$total-columns: 12;
+$column-width: 4em;
+$gutter-width: 1em;
+$grid-padding: $gutter-width;
+
+$wide-screen: 1100px 12;
+$normal-screen: 800px 12;
+$mobile-screen: 100px 12;
+
+@import "susy";
+@import "web-fonts";
+@include web-font((Lato, Droid Sans), (100 100italic 300 300italic, 400 700));
+
+
+/* Define typography for styles */
+$font-color: #444;
+$color-loud: #000;
+$color-quiet: #777;
+$color-silent: #ddd;
+$font-base-size: 1em;
+
+
+p {
+  font: {
+      size: $font-base-size;
+      family: "Droid Sans";
+  };
+  color: $font-color;
+  line-height: 1.618em;
+}
+
+h1 {
+    color: $font-color;
+
+    font: {
+        family: "Lato";
+        weight: 100;
+    }
+    line-height: 1.15em;
+    margin-bottom: .2em;
+
+    @include at-breakpoint($mobile-screen) {
+        font-size: 2.618em;
+    }
+    @include at-breakpoint($normal-screen) {
+        font-size: 4.236em;
+    }
+    @include at-breakpoint($wide-screen) {
+        font-size: 5.625em;
+    }
+
+}
+
+h2 {
+    a {
+        color: $font-color;
+        &:hover { color: $font-color; }
+        &:visited { color: $font-color; }
+    }
+
+    font: {
+        family: "Lato";
+        weight: 300;
+    }
+    line-height: 1.618em;
+
+    @include at-breakpoint($normal-screen) {
+        font-size: 1.328em;
+    }
+
+    @include at-breakpoint($wide-screen) {
+        font-size: 1.618em;
+    }
+
+
+};
+
+h5 {
+    font: {
+        family: "Droid Sans";
+        size: .821em;
+        style: italic;
+    }
+    line-height: 1.923em;
+
+}
+
+blockquote {
+    font: {
+        family: "Droid Sans";
+        style: italic;
+        size: 1em;
+    }
+}
+
+
+a {
+    font: {
+        family: "Droid Sans";
+    }
+    color: $font-color;
+}
+
+#offsite-links a {
+    text-decoration: none;
+}

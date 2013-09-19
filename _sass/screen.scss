@@ -1,0 +1,212 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/utilities";
+@import "base";
+@import "rounded";
+@import "links";
+
+
+#container {
+    .clear {display: block; clear: both; visibility: hidden;}
+
+    #home {
+        clear: both;
+    }
+
+    @include border-box-sizing;
+    @include container;
+    header {
+        @include at-breakpoint($mobile-screen) {
+            background-color: $font-color;
+            color: white;
+            position: fixed;
+            bottom: 0px;
+            left: 0px;
+            width: 100%;
+            padding: {
+                left: .7em;
+                right: .5em;
+                bottom: 1em;
+            }
+            h1 {
+                color: white;
+                font-weight: 300;
+            }
+        }
+
+        @include at-breakpoint($normal-screen) {
+            position: relative;
+            background-color: inherit;
+            color: $font-color;
+            h1 {
+                color: $font-color;
+            }
+            margin: {
+                left: 0;
+                right: 0;
+            }
+
+        }
+
+        @include span-columns(12);
+        h2 {
+            font: {
+                style: italic;
+            }
+        }
+    }
+    #offsite-links {
+        @include at-breakpoint($mobile-screen) {
+            position: relative;
+            @include horizontal-list;
+            padding: {
+                top: .5em;
+                bottom: .5em;
+            }
+            a {
+                color: $color-silent;
+                &:hover {
+                    color: $color-silent;
+                }
+                &:visited {
+                    color: $color-silent;
+                }
+            }
+        }
+        @include at-breakpoint($normal-screen) {
+            @include horizontal-list;
+            position: absolute;
+            top: 1em;
+            right: 6em;
+            a {
+                color: $font-color;
+                &:hover {
+                    color: $font-color;
+                }
+                &:visited {
+                    color: $font-color;
+                }
+            }
+
+        }
+    }
+
+    #home section {
+            p {
+                @include link;
+            }
+
+            h2 {
+                margin: {
+                    top: 2em;
+                    bottom: 1em;
+                }
+                text-transform: uppercase;
+                /* Override H2 font and media query */
+                font-size: 1.618em;
+            }
+            @include at-breakpoint($normal-screen) {
+                @include span-columns(12 omega);
+            }
+
+            @include at-breakpoint($wide-screen) {
+                @include span-columns(10 omega);
+                @include pre(2);
+                float: left;
+                #date {
+                    @include pull(2);
+                    float:left;
+                }
+            }
+        h1 {
+            font: {
+                size: 1.618em;
+            }
+        }
+
+        .read-more {
+            line-height: 1em;
+            margin: {
+                top: 1em;
+            }
+            font: {
+                size: .818em;
+            }
+
+            @include at-breakpoint($mobile-screen) {
+                @include span-columns(4);
+                @include pre(8);
+            }
+            @include at-breakpoint($normal-screen) {
+                @include span-columns(2);
+                @include pre(9);
+            }
+            @include revert-link;
+        }
+        margin: {
+            top: 1em;
+        }
+        padding: {
+            bottom: 2em;
+        }
+        border: {
+            bottom: 1px solid $color-silent;
+        }
+    }
+    #article article {
+        p {
+            @include link;
+        }
+        h2 {
+            text-transform: uppercase;
+            font-style: italic;
+            margin: {
+                top: 2em;
+                bottom: 1em;
+            }
+        }
+        blockquote {
+            margin: {
+                left: 2.5em;
+                top: 1.5em;
+                bottom: 1.5em;
+            }
+            padding: {
+                left: 1em;
+            }
+            border: {
+                left: 1px solid $font-color;
+            }
+        }
+        p.intro {
+            font-size: 2.149em;
+            line-height: 1.2em;
+            margin: {
+                bottom: .7em;
+            }
+            a {
+                padding: {
+                    top: .05em;
+                    bottom: .05em;
+                    }
+            }
+        }
+        p.author {
+            font: {
+                family: "Droid Sans";
+                size: .821em;
+            }
+            line-height: 1.823em;
+            margin: {
+                bottom: 1.9em;
+            }
+            color: #666664;
+            text-align: right;
+            letter-spacing: 1px;
+        }
+    }
+}

@@ -1,0 +1,54 @@
+/* Implement the revert link effect */
+
+@import "rounded";
+
+@mixin revert-link {
+    a {
+        @include rounded(20px);
+        background-color: $color-loud;
+        white-space: nowrap;
+        padding: {
+            top: .5em;
+            left: 1em;
+            bottom: .5em;
+            right: 1em;
+        }
+        color: $color-quiet;
+        text-decoration: none;
+        &:hover {
+            color: $color-silent;
+            text-decoration: none;
+        }
+        &:visited {
+            color: $color-silent;
+            text-decoration: none;
+        }
+    }
+}
+
+@mixin link {
+    a {
+        text-decoration: none;
+        background: {
+            color: $color-silent;
+        }
+        padding: {
+            top: .3em;
+            left: .5em;
+            bottom: .3em;
+            right: .5em;
+        }
+        &:visited {
+            color: $font-color;
+            text-decoration: none;
+        }
+
+        &:hover {
+            background: {
+                color: $color-loud;
+            }
+            color: $color-silent;
+            text-decoration: none;
+        }
+    }
+}

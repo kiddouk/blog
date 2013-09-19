@@ -1,0 +1,7 @@
+/* Rounded corners */
+
+@import "compass/css3/border-radius";
+
+@mixin rounded($pixels: 10px) {
+    @include border-radius($pixels, $pixels);
+}
