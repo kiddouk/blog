@@ -46,7 +46,7 @@ h1 {
     margin-bottom: .2em;
 
     @include at-breakpoint($mobile-screen) {
-        font-size: 2.618em;
+        font-size: 2.149em;
     }
     @include at-breakpoint($normal-screen) {
         font-size: 4.236em;
@@ -80,6 +80,18 @@ h2 {
 
 
 };
+
+
+h3 {
+    font: {
+        family: "Droid Sans";
+        size: 1em;
+        style: italic;
+    }
+    color: $font-color;
+    line-height: 1.923em;
+
+}
 
 h5 {
     font: {
