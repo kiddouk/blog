@@ -70,7 +70,7 @@ h2 {
     }
     line-height: 1.618em;
 
-    @include at-breakpoint($normal-screen) {
+    @include at-breakpoint($mobile-screen) {
         font-size: 1.328em;
     }
 
