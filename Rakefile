@@ -5,6 +5,7 @@ namespace :assets do
   task :precompile do
     Rake::Task["clean"].invoke
     sh "bundle exec jekyll build"
+    sh "bundle exec jekyll build"
   end
 end
 
