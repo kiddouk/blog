@@ -81,7 +81,7 @@
             a {
                 color: $color-silent;
                 &:hover {
-                    color: $color-silent;
+                    color: $font-color;
                 }
                 &:visited {
                     color: $color-silent;
@@ -94,12 +94,12 @@
             top: 1em;
             right: 6em;
             a {
-                color: $font-color;
+                color: $font-silent;
                 &:hover {
                     color: $font-color;
                 }
                 &:visited {
-                    color: $font-color;
+                    color: $font-silent;
                 }
             }
 
