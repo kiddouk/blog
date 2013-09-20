@@ -35,6 +35,11 @@
             h1 {
                 color: white;
                 font-weight: 300;
+                font-size: 1.321em;
+            }
+
+            h2 {
+                font-size: .821em;
             }
         }
 
@@ -44,7 +49,13 @@
             color: $font-color;
             h1 {
                 color: $font-color;
+                font-size: 4.236em;
             }
+
+            h2 {
+                font-size: 1.328em;
+            }
+
             margin: {
                 left: 0;
                 right: 0;
@@ -208,5 +219,43 @@
             text-align: right;
             letter-spacing: 1px;
         }
+    }
+    footer {
+        margin: {
+            top: 7em;
+            bottom: 10em;
+        }
+        border: {
+            top: 1px solid $color-silent;
+        }
+        padding: {
+            top: 1em;
+            }
+        h2 {
+            line-height: .821em;
+        }
+        h3 {
+            margin-top: .5em;
+        }
+        #avatar {
+            $avatar_width: 70px;
+            $avatar_height: 70px;
+            float: left;
+            height: $avatar_height + 10px;
+            width: $avatar_width + 10px;
+            margin: {
+                right: 2em;
+                bottom: 1em;
+            }
+            border: 1px solid $color-silent;
+
+            background: {
+                image: url("https://si0.twimg.com/profile_images/378800000254643600/93dba7efc63408889b084895fbf0d44e.jpeg");
+                size: $avatar_width $avatar_height;
+                repeat: no-repeat;
+                position: center;
+            }
+        }
+
     }
 }
