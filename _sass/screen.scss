@@ -80,13 +80,13 @@
             }
             a {
                 color: $color-silent;
-                &:hover {
-                    color: $font-color;
-                }
                 &:visited {
                     color: $color-silent;
                 }
-            }
+                 &:hover {
+                    color: $font-color;
+                }
+           }
         }
         @include at-breakpoint($normal-screen) {
             @include horizontal-list;
@@ -95,13 +95,13 @@
             right: 6em;
             a {
                 color: $color-silent;
-                &:hover {
-                    color: $font-color;
-                }
                 &:visited {
                     color: $color-silent;
                 }
-            }
+                &:hover {
+                    color: $font-color;
+                }
+           }
 
         }
     }
