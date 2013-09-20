@@ -94,12 +94,12 @@
             top: 1em;
             right: 6em;
             a {
-                color: $font-silent;
+                color: $color-silent;
                 &:hover {
                     color: $font-color;
                 }
                 &:visited {
-                    color: $font-silent;
+                    color: $color-silent;
                 }
             }
 
