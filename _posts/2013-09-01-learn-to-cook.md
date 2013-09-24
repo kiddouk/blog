@@ -1,15 +1,14 @@
 ---
 layout: post
-title: Learn to cook
+title: Learn how to cook.
 author: SEBASTIEN REQUIEM
-published: true
+published: false
 ---
 
 
 <p class="intro">Learning how to code has been <a href="http://www.codinghorror.com/blog/2012/05/please-dont-learn-to-code.html" target="_blank" title="Jeff Atwood on Coding Horror">discussed</a> <a href="http://www.forbes.com/sites/anthonykosner/2012/10/06/learn-to-code-1-does-everybody-really-need-to-program/" target="_blank" title="Learn to code on forbes">already</a> a million times. Here a 5 reasons why you dont need to learn how to code.</p>
 
-1. People defending the cause, don't even know what they are talking about.
-----------------------------
+## 1. People defending the cause, don't even know what they are talking about. ##
 
 > Is it truly that much of a waste of time to get people to at least try to
 > understand how computers work, identify problems, and attempt to learn why
@@ -20,8 +19,8 @@ published: true
 
 Nope, coding will not help you to stop whining or have to go to the repair shop at times. Programming and fixing a computer are two different activities. And you dont need to learn one to master the other.
 
-2. Any activity is "empowering"
------------------------------
+## 2. Any activity is "empowering" ##
+
 > I think everybody should learn to code, for one simple reason: knowing how
 > to code is hugely empowering.
 
@@ -33,17 +32,16 @@ What are we affraid here ? That someone is more "empowered" than somebody else ?
 
 <p class="author"><i>A developer, when he had to call for a plumber a sunday a 11PM after paying a wooping 1000$ bill without counting the insurrance malus.</i></p>
 
-3. Coding has nothing to do with coding.
---------------------------------
+## 3. Coding has nothing to do with coding. ##
 
 You read me well. Coding is simply an expression. Trust me, if developers didn't have to code, they wouldn't do it. Solving problems or creating new things comes first by rationalising any given problem. Putting together maths, algorythmics, science and randomness. Coding is just expressing it. Teach a soon-to-be plumber how to solder *before* teaching him how a pipe works and you will spend 1000$ on a sunday night for nothing. :-)
 
-4. The campaign is widely used by people in the industry to recruit you
----------------------------------
+## 4. The campaign is widely used by people in the industry to recruit you ##
+
 The [campaign video](http://www.youtube.com/watch?v=nKIu9yen5nc "What school don't teach") is incredibly cheesy but efficient. This video is not selling you that "you should code" but rather selling you the tech world. Would you be a handy man after seeing [that ad](http://www.vanksen.fr/files/old/jpg/hydraulik_bienvenue.jpg "Bienvenue en pologne") ? Answer : No. This is a polish tourism advertisment, not a handy man workshop. Note : The guy is damn sexy (Sexier than the average developer). Same goes for the previous video.
 
-5. Coding is not the right tool to be a rockstar.
----------------------------------
+## 5. Coding is not the right tool to be a rockstar. ##
+
 We could totally imagine the following quotes, after watching the [cheesy video](http://www.youtube.com/watch?v=nKIu9yen5nc "What school don't teach on youtube")
 
 > If I knew how to code, I wouldn't have taken any drugs. Think about it. It would have ruined my career.
