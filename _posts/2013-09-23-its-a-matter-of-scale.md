@@ -10,7 +10,23 @@ In the past few years I have learned a [new culture](http://en.wikipedia.org/wik
 
 No language can be learned without respecting the set of rules of grammar – [as complicated they are](http://en.wikibooks.org/wiki/French/Grammar/Tenses#Verb_tenses_sorted_by_type). Grammar is the scale of the language. If applied correctly, this scale will make your language sound fluent, nice to the ear and enjoyable to speak. Learning the guitar or any instruments is also a matter of scale. If you respect the defined notes in a scale, you have a pretty good chance to make something that sound like music. Listen in the following example how, just by applying 1 (one) single chord using the arpegio chord, Gonzales can make music. Simple but musically sounding sounds.
 
-[Gonzales explains arpegios](https://soundcloud.com/chillygonzales/munich-21-nov-2012#t=21:05)
+
+{% soundcloud https://soundcloud.com/chillygonzales/munich-21-nov-2012 show_comments=false %}
+<script src="https://w.soundcloud.com/player/api.js" type="text/javascript"></script>
+<script type="text/javascript">
+  (function(){
+    var widgetIframe = document.getElementById('sc-widget'),
+        widget       = SC.Widget(widgetIframe),
+        newSoundUrl = 'http://api.soundcloud.com/tracks/13692671';
+
+    widget.bind(SC.Widget.Events.PLAY, function() {
+      // load new widget
+      console.log("READY");
+      widget.seekTo(1265000);
+
+    });
+  }());
+</script>
 
 Genius. And have you checked until he is reproducing some of Daft Punk music ? Amazing. Simple rule applied giving some great result.
 
