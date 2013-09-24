@@ -28,6 +28,8 @@ No language can be learned without respecting the set of rules of grammar – [a
   }());
 </script>
 
+*Note: you may have to click "Play" many times to seek to the right position. Give it a try.*
+
 Genius. And have you checked until he is reproducing some of Daft Punk music ? Amazing. Simple rule applied giving some great result.
 
 Learning design is no different. I've been wondering how people could craft some super handsome design. Wow ! So creative. But in fact, designers have learned how to apply a sets of rules. Typography, a set of rules to apply to the letters, grids, a scale to align elements, colors, [a scale to select the best colors](http://www.sessions.edu/color-calculator).
