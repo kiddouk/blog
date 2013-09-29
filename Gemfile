@@ -6,4 +6,5 @@ gem 'rack'
 gem 'rack-contrib'
 gem 'compass'
 gem 'susy'
+gem 'ruby-oembed'
 gem 'shotgun', :group => :development

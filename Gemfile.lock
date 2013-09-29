@@ -36,6 +36,7 @@ GEM
     rack-contrib (1.1.0)
       rack (>= 0.9.1)
     redcarpet (2.2.2)
+    ruby-oembed (0.8.9)
     safe_yaml (0.7.1)
     sass (3.2.10)
     shotgun (0.9)
@@ -54,5 +55,6 @@ DEPENDENCIES
   jekyll
   rack
   rack-contrib
+  ruby-oembed
   shotgun
   susy
