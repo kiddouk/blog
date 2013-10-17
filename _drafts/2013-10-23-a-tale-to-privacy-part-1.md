@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_with_disqus
 title: A tale to privacy (part 1)
 author: SEBASTIEN REQUIEM
 ---
