@@ -5,7 +5,7 @@ require 'rack/contrib/try_static'
 
 use Rack::TryStatic,
   :urls => %w[/],
-  :root => "_site",
+  :root => "/app/_site",
   :try => ['.html', 'index.html', '/index.html'] # try these postfixes sequentially
 
 run lambda { |env|
