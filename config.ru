@@ -11,6 +11,6 @@ use Rack::TryStatic,
 run lambda { |env|
  [
    404, {'Content-Type' => 'text/html'},
-   ['Not Found']
+   ['Not Found :(']
  ]
 }
