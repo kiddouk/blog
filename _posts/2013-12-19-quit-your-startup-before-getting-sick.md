@@ -4,7 +4,7 @@ title: Quit your startup before getting sick.
 author: SEBASTIEN REQUIEM
 ---
 
-<p class="into">In early 2012, I started from the ground up a company called [UltimateManager](http://www.ultimatemanager.com) with two partners and a [seed investor](http://rainmaking.dk). In late 2013 (a little less than 2 years after), I decided to quit it and let my partners enjoy the ride. Here is why.</p>
+<p class="into">In early 2012, I started from the ground up a company called <a href="http://www.ultimatemanager.com" title="Ultimate Manager Fantasy Game">UltimateManager</a> with two partners and a <a href="http://rainmaking.dk" title="Rainmaking">seed investor</a>. In late 2013 (a little less than 2 years after), I decided to quit it and let my partners enjoy the ride. Here is why.</p>
 
 The decision hasn't been easy. Like many founders, creating a company is like having your on little baby. You get emotionally attached and want to succeed. Your are willing to sacrifice a lot to see your product fly. But at the end, I started to sacrifice my own health. This is when I said "enough".
 
