@@ -4,7 +4,7 @@ title: Killing the ASAP culture
 author: SEBASTIEN REQUIEM
 ---
 
-<p class="into">All developers working in a product based startup know what I am talking about. The <strong>A</strong>s <strong>S</strong>oon <strong>A<strong>s <strong>P</strong>ossible culture. As you [know](http://www.linkedin.com/in/sebastienrequiem), I have been involved in some startups (and [quit](http://sebastien.requiem.fr/2013/12/19/quit-your-startup-before-getting-sick.html) them). In these past experiences, everytime I was discussing with our "Product Manager", all features should be done As Soon As Possible.</p>
+<p class="into">All developers working in a product based startup know what I am talking about. The <strong>A</strong>s <strong>S</strong>oon <strong>A<strong>s <strong>P</strong>ossible culture. As you <a href="http://www.linkedin.com/in/sebastienrequiem" title="Sébastien Requiem on Linkedin">know</a>, I have been involved in some startups (and <a href="http://sebastien.requiem.fr/2013/12/19/quit-your-startup-before-getting-sick.html" title="Quit your statup before getting sick">quit</a> them). In these past experiences, everytime I was discussing with our "Product Manager", all features should be done As Soon As Possible.</p>
 
 Announcing a feature before hand to customers, partners, beta testers or even friends led us to state a date. We built expectations and raised the pressure on our shoulders with no reason.
 
