@@ -1,0 +1,64 @@
+==================================================================
+https://keybase.io/kiddouk
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://sebastien.requiem.fr
+  * I am kiddouk (https://keybase.io/kiddouk) on keybase.
+  * I have a public key with fingerprint 3B23 02E5 7CC7 AA3D 8D46  00E8 9DAC 32BD 82A1 C9DC
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "3b2302e57cc7aa3d8d4600e89dac32bd82a1c9dc",
+            "host": "keybase.io",
+            "key_id": "9DAC32BD82A1C9DC",
+            "uid": "86adf4048c52ce0405f9df0b910bf600",
+            "username": "kiddouk"
+        },
+        "service": {
+            "hostname": "sebastien.requiem.fr",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1398160404,
+    "expire_in": 157680000,
+    "prev": "8500d15a501b28a84e20571e84c3ecb32dfec6d4b693952d148a718571951c32",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owE1UVtIFFEYnnXNGxpClhISNmKkLOvcd2aoQHdDe/ChQilQlpk5Z9ZBd2acnd28
+5EvZvczQsiDJCEnLQjKEyqCgC6KWVD5pSkhgPUTgIoaYnRE7L4fz/d//ff93/o4M
+N5bg6hmkXp66OzbrGn+1ImNHq/ZlteCyAZpwsQWvgxuXqukhaJmWptu4iNMyRRMU
+ZH2K4pMkGvCA4QgC8gKQFJqSAU9JpCIABffgtUbE6UAyshSBXs1AGHoENYBQIVDi
+p6nSAE+VkH4h4Ee16EaB5ySgMgTDKyylQIIhWFUAKiELJCGryMohRqClS2HoiGsA
+GNE6vNWDIzCmKdAZ2XHeJEQgMrc1qHst2BDVYNirWkjCtAzbUIx6xKi1bVN0BOwm
+0+k4AeXgplZQ1nSA4qOGGLQimqHjIomYiq054iQt8CSHRmQ8OGw0NQsGNYfB+jie
+QMexgTEnE0sQgGQlliBlipd4BlIE6yMhzyg0VGSaAipUOMDInEALLAVIhpd8JI8o
+Akuib8WddA26gYs8GlMKObm0kC7ZUQvirRdcuYmYKwFL2pLgLBBLS838v9bpqeTV
+RPFM//3At5nXYkq751HXxbeXTj+fKN4xfM1bkT850nd9dLF3qZnEhJsZhVRPWd74
+ueWKPa7KI8sHtg9NFRxc97c1d6/1iDf+vBsIFC49VI2fwfrR+endI2VClUamfUy+
+oswynaGa8/tT3sjZZnr3587C3pPBdXfJXHWldDwe9d6eaBoL1ex8wm3dm/87KVz+
+IPnOaryYm/Prbb+8YwsL2Vn1P1ezjz1eyf8hDQ1Wuj/tqvo6njuRM9B/q68oXjSf
+U56XOpP+tBTX6XvlmcPDVzmz4IuMVb9XGqVt1Iv2D7MpbizxULz98srA4tmumlhH
+Xu7a9+5nk53xcOzw338=
+=WQAN
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kiddouk
+
+==================================================================
