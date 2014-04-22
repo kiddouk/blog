@@ -3,8 +3,10 @@ task default: "assets:precompile"
 namespace :assets do
   desc "Precompile assets"
   task :precompile do
+    Rake::Task["clean"].invoke
     sh "bundle exec jekyll build"
     sh "bundle exec jekyll build"
+    sh "cp #{File.dirname(__FILE__)}/keybase.txt _site"
   end
 end
 
