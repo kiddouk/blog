@@ -6,7 +6,7 @@ published: false
 ---
 
 
-<p class="intro">One of the most difficult part of a startup is probably building the team around it. A team of people that trust each other, have fun and share the same core values. Here are X tips to build a better team.</p>
+<p class="intro">One of the most difficult part of a startup is probably building the team around it. A team of people that trust each other, have fun and share the same core values. Here are 4 tips to build a better team.</p>
 
 ## 1. Stop using "I", use "WE" instead. ##
 
