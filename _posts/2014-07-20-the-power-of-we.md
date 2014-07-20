@@ -2,7 +2,7 @@
 layout: post
 title: The power of we.
 author: SEBASTIEN REQUIEM
-published: false
+published: true
 ---
 
 
