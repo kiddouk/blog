@@ -22,7 +22,7 @@ I want to consider my peers as equal. I want to work _with_ others and not _for_
 
 ## 3. Building a team doesn't happen over night. ##
 
-In any case, don't rush things. Things happen with time. As much as you would like to convert anyone to like your team, it will only happen with time and patience. The only you can do is to empower people in creating bonds and giving a good time.
+In any case, don't rush things. Things happen with time. As much as you would like to convert anyone to like your team, it will only happen with time and patience. The only thing you can do is to empower people in creating bonds and giving a good time.
 
 
 ## 4. A team needs a purpose. ##
