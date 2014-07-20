@@ -12,7 +12,8 @@ published: false
 
 If you want people to have a sense of belonging, use the word "we" when you speak. It's inclusive, it shows that people are aligned and send that the whole team has a direction. This is a great feeling. Try to wear the shoes of that guy that just joined you. The best you can do, is to make him feel included. Soon, when he will talk to new colleague, he will use the word "we".
 
-PS: This goes also for your public profiles in social media. Stop saying "I am looking for a ... to work on android".
+PS: This goes also for your public profiles in social media. Stop saying "I am looking for a ... to work on android", but "we are looking for". So people will understand that they are joining a team.
+
 
 ## 2. There is a difference between working "for" and working "with" ##
 
