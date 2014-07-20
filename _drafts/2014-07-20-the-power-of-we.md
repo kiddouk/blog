@@ -18,7 +18,7 @@ PS: This goes also for your public profiles in social media. Stop saying "I am l
 ## 2. There is a difference between working "for" and working "with" ##
 
 Ask youself this question: Would I rather work with a friend, or work for my boss ? I bet you just understood my point.
-I want to consider my peers as equal. I want to work with others and not for others (the salary being left aside). Working with someone is uplifting, can be fun or at least helps to create bounds.
+I want to consider my peers as equal. I want to work _with_ others and not _for_ others (the salary being left aside). Working with someone is uplifting, can be fun or at least helps to create bounds.
 
 ## 3. Building a team doesn't happen over night. ##
 
