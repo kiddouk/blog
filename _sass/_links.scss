@@ -31,24 +31,16 @@
         text-decoration: none;
         background: {
             color: $color-silent;
-        }
-        padding: {
-            top: .3em;
-            left: .5em;
-            bottom: .3em;
-            right: .5em;
+            text-decoration: underline;
         }
         &:visited {
             color: $font-color;
             text-decoration: none;
+            border-bottom: 1px dashed $color-quiet;
         }
 
         &:hover {
-            background: {
-                color: $color-loud;
-            }
-            color: $color-silent;
-            text-decoration: none;
+            border-top: 1px solid $color-quiet;
         }
     }
 }
