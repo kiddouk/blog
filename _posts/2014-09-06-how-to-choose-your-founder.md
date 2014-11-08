@@ -4,7 +4,7 @@ title: How to choose your co-founder
 author: SEBASTIEN REQUIEM
 ---
 
-<p class="intro">Creating a company is not an easy nor a small task. It usually requires a set of competences that are crossfield and difficult to acquire. Marketing, Product development, Analysis, and so on. This may lead you to choose a partner. Here is 5 tips on how to choose your co-founder.</p>
+<p class="intro">Creating a company is not an easy nor a small task. It usually requires a set of competences that are crossfield and difficult to acquire. Marketing, Product development, Analysis, and so on. This may lead you to choose a business partner. Here is 5 tips on how to choose your co-founder.</p>
 
 ## Matches your values ##
 This is by far the most important. If you don't have the same values, you won't be able to share the same vision. If you don't share the same vision, it will be hard to ship something consistent. It will lead you to internal conflict. Starting a company is *not* the time to make enemies. So make sure that you don't end up having internal ennemies either. Work the same number of hours and work together.
