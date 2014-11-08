@@ -65,7 +65,6 @@ it may not be that important. Can it be postponed even further ? Or
 you realize that things will burn if you don't do that task this
 morning. By re-writing, you re-assess the importance of a task.
 
-
 ## There is two level of importance only ##
 
 I tend to see people categorizing things like "not important", "not so
@@ -77,7 +76,6 @@ list after all) you have to do it as soon as there is no urgent
 matter. That's it. Don't spend 2 hours categorizing your tasks. You
 *know* if something is burning or not. Just take the extinguisher and
 kill the fire. Right away.
-
 
 Being productive one day is a simple thing to do, being productive 5
 days out of 7 is way more difficult. I tend to apply these four
