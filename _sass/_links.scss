@@ -28,7 +28,6 @@
 
 @mixin link {
     a {
-        text-decoration: none;
         text-decoration: underline;
         color: $color-quiet;
         &:visited {
