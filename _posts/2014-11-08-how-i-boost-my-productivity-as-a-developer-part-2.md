@@ -2,7 +2,7 @@
 layout: post_with_disqus
 title: How I boost my productivity as a developer - part 2
 author: SEBASTIEN REQUIEM
-published: false
+published: true
 ---
 
 <p class="intro">Over the years, I have been forced to become more productive. I ended up making a small check list of both mental and technological tool to help me getting the maximum of myself during the day. Here it is.</p>
