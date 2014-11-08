@@ -29,12 +29,9 @@
 @mixin link {
     a {
         text-decoration: none;
-        background: {
-            color: $color-silent;
-            text-decoration: underline;
-        }
+        text-decoration: underline;
+        color: $color-quiet;
         &:visited {
-            color: $font-color;
             text-decoration: none;
             border-bottom: 1px dashed $color-quiet;
         }
