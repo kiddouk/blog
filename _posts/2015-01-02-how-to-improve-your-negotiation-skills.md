@@ -1,6 +1,6 @@
 ---
 layout: post_with_disqus
-title: How to improve your negociation skills
+title: How to improve your negotiation skills
 author: SEBASTIEN REQUIEM
 ---
 
