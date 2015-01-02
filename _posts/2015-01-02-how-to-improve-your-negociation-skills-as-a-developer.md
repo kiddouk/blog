@@ -22,7 +22,7 @@ I hired a lawyer. This is the best advice I can give you. Get a f*cking lawyer. 
 
 ## Rule #2 - Take your time. ##
 
-<p class="blockquote">Negociation is not about accepting what people offer you. It's about getting what you want and being honest with yourself and the situation.</p>
+<blockquote>Negociation is not about accepting what people offer you. It's about getting what you want and being honest with yourself and the situation.</blockquote>
 
 Back at that time, I really hoped to get done very fast because it was hard mentally. It's pretty exhausting to constantly think about one thing. But don't rush things. Take you time. What's the rush anyway ?
 
