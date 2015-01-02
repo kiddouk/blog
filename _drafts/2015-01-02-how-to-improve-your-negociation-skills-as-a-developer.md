@@ -52,4 +52,4 @@ Let's face it; you are in a conflict. So make sure that you walk away with what 
 
 I ended up with a situation that I find fair. Everyone bled a little. I didn't get 100% of my shares, but I didn't get 25% neither ;) I receive some months of salary, but not the full 4 months. I got a couple of contractual clauses that protects me.
 
-Remember one thing; once you leave (or are asked to leave) the company, you will not have access to as much information as you think you can. This will weaken your game. So make sure that you leave with the best contract you can. Then things will flatten out with time anyway. Hopefully.
+Remember one thing; once you leave (or is asked to leave) the company, you will not have access to as much information as you think you can, in order to remain an active share holder (nothing is defined by law anyway). This will weaken your game in case of future investment, company strategic decisions or simple board meetings. So make sure that you leave with the best contract you can. Then things will flatten out with time anyway. Hopefully.
